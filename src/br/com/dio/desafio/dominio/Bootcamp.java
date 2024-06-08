@@ -6,6 +6,12 @@ import java.util.LinkedHashSet;
 import java.util.Objects;
 import java.util.Set;
 
+/*
+ * A classe Bootcamp representa um programa intensivo de aprendizado,
+ * que contém diversos conteúdos (cursos e mentorias) e permite que
+ * desenvolvedores se inscrevam e participem.
+ */
+
 public class Bootcamp {
     private String nome;
     private String descricao;

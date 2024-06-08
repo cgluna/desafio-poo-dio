@@ -3,13 +3,17 @@ package br.com.dio.desafio.dominio;
 public class Curso extends Conteudo{
 
     private int cargaHoraria;
-
+/*
+ * Implementação do método de calcularXp, aplicado
+ * para a classe dev na classe Main
+ */
     @Override
     public double calcularXp() {
         return XP_PADRAO * cargaHoraria;
     }
 
-    public Curso() {
+
+    public Curso() { //Construtor vazio
     }
 
 
